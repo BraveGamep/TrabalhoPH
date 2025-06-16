@@ -8,7 +8,7 @@ form {
   margin-top: 5%;
 }
 
-fieldset {
+.fieldset_tipo1 {
   background: #020024;
   background: linear-gradient(
     335deg,
@@ -49,4 +49,18 @@ legend {
   text-align: center;
   display: block;
   margin: 0 auto;
+}
+dialog {
+  background: #020024;
+  background: linear-gradient(
+    335deg,
+    rgb(100, 100, 100) 0%,
+    rgba(190, 190, 190, 1) 100%
+  );
+}
+.fieldset_tipo2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
